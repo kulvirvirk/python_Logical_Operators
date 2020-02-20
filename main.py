@@ -20,4 +20,10 @@ if(num1 > num2):
 else: print('num1 is not greater')
 print('--------------******--------------\n')
 
-
+# 3. try < operator
+print('num1: ' + str(num1))
+print('num2: ' + str(num2))
+if(num1 < num2):
+  print('num1 is smaller!')
+else: print('num1 is not smaller')
+print('--------------******--------------\n')
