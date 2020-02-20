@@ -43,5 +43,13 @@ print('num1: ' + str(num1))
 print('num2: ' + str(num2))
 if(num1 >= num2):
   print('num1 is greater!')
-else: print('num1 is not greater')
+else: print('num1 is not greater or equal to num2')
+print('--------------******--------------\n')
+
+# 6. try <= operator; 'smaller than or equal to'
+print('num1: ' + str(num1))
+print('num2: ' + str(num2))
+if(num1 <= num2):
+  print('num1 is smaller!')
+else: print('num1 is not smaller or equal to num2')
 print('--------------******--------------\n')
